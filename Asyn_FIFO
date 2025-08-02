@@ -1,4 +1,4 @@
-module FIFO # ( parameter integer wr_width = 16,
+module Asyn_FIFO # ( parameter integer wr_width = 16,
                       parameter integer rd_width = 8,
                       parameter integer depth= 512,
                       parameter integer width = (wr_width < rd_width)? wr_width : rd_width  )
